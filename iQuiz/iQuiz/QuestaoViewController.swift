@@ -9,21 +9,28 @@ import UIKit
 
 class QuestaoViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var tituloQuestalLabel: UILabel!
+    
+    @IBOutlet var botoesRepostas: [UIButton]!
+    
+    @IBAction func respostaBotaoPressionado(_ sender: UIButton) {
+        print(sender.tag)
     }
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        configurarLayout()
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        
     }
-    */
-
+    func configurarLayout() {
+        navigationItem.hidesBackButton = true
+        
+        for botao in botoesRepostas {
+            botao.layer.cornerRadius = 12.0
+        }
+    }
 }
