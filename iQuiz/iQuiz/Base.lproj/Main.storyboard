@@ -71,7 +71,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWV-6j-dLa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWV-6j-dLa">
                                 <rect key="frame" x="64" y="326" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.45490196078431372" green="0.19607843137254902" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -83,10 +83,10 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="respostaBotaoPressionado:" destination="ujY-D1-JOj" eventType="touchUpInside" id="bfR-ZT-Ljs"/>
+                                    <action selector="respostaBotaoPressionado:" destination="ujY-D1-JOj" eventType="touchUpInside" id="m5b-oX-DDW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjb-hf-LCT">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjb-hf-LCT">
                                 <rect key="frame" x="64" y="420" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -98,10 +98,10 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="respostaBotaoPressionado:" destination="ujY-D1-JOj" eventType="touchUpInside" id="fTM-JH-5Wu"/>
+                                    <action selector="respostaBotaoPressionado:" destination="ujY-D1-JOj" eventType="touchUpInside" id="sVd-4w-Fdn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VD-7m-AHP">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VD-7m-AHP">
                                 <rect key="frame" x="64" y="514" width="265" height="62"/>
                                 <color key="backgroundColor" red="0.4549019608" green="0.1960784314" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -114,7 +114,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="22"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="respostaBotaoPressionado:" destination="ujY-D1-JOj" eventType="touchUpInside" id="6MS-Wu-dXW"/>
+                                    <action selector="respostaBotaoPressionado:" destination="ujY-D1-JOj" eventType="touchUpInside" id="UTd-YC-Tsv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,8 +144,9 @@
                     <navigationItem key="navigationItem" id="N8z-AN-IpS"/>
                     <connections>
                         <outlet property="tituloQuestalLabel" destination="1mo-Sx-7TI" id="QSj-Yf-ENq"/>
-                        <outletCollection property="botoesRespostas" destination="gWV-6j-dLa" collectionClass="NSMutableArray" id="1cr-fB-CQr"/>
-                        <outletCollection property="botoesRepostas" destination="gWV-6j-dLa" collectionClass="NSMutableArray" id="EEV-7i-EgD"/>
+                        <outletCollection property="botoesRespostas" destination="gWV-6j-dLa" collectionClass="NSMutableArray" id="kzA-vE-4gn"/>
+                        <outletCollection property="botoesRespostas" destination="pjb-hf-LCT" collectionClass="NSMutableArray" id="P2o-h9-AX9"/>
+                        <outletCollection property="botoesRespostas" destination="2VD-7m-AHP" collectionClass="NSMutableArray" id="Yp6-Nh-z46"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n2R-g5-Ib7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
