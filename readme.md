@@ -8,4 +8,5 @@ Neste aplicativo é um aplicativo simples de perguntas e respostas, na qual apre
  - Modelagem de Dados.
 
 ### IMGs / GIFs
-<img src="./imgs/HomeAppQuiz.png" alt="SplashScreen" width="270px">
+<img src="./imgs/HomeAppQuiz.png" alt="HomeApp" width="270px">
+<img src="./imgs/GifApp.gif" alt="GifApp" width="270px">
